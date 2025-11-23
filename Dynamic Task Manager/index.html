@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>My Page</title>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-  <input id="inp"/>
 
+<body>
+  <input id="inp" />
   <select id="priority">
     <option value="High">High</option>
     <option value="Medium">Medium</option>
@@ -15,15 +16,24 @@
 
   <select id="status">
     <option value="Pending">Pending</option>
-    <option value="Complete">Complete</option>
+    <option value="Completed">Completed</option>
   </select>
 
 
-
   <button id="btn">Submit</button>
-  <div id="add">
+  <div>
+    <select id="filter">
+      <option value="All">All</option>
+      <option value="Pending">Pending</option>
+      <option value="Completed">Completed</option>
+    </select>
+    <button id="sortBtn">Ascending</button>
 
+  </div>
+
+  <div id="add">
   </div>
   <script src="script.js"></script>
 </body>
+
 </html>
